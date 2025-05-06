@@ -10,22 +10,23 @@ public class Exit : MonoBehaviour
 
     private Level _level;
     private TIME _time;
+    private Key _key;
     private bool isOpen;
     
-    public void Init(Level level, TIME time)
+    public void Init(Level level, TIME time, Key key)
     {
         _level = level;
         _time = time;
+        _key = key;
         isOpen = false;
         switchState(ref isOpen);
     }
-
-    private void OnTriggerEnter(Collider other)
+    
+    private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("OnTriggerEnter");
-        if (_time.Ended)
+        if (_time.Ended || _key.IsTaken == false)
         {
-            Debug.Log("TIME is end");
             return;
         }
         

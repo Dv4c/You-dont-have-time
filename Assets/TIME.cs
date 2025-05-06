@@ -23,11 +23,9 @@ public class TIME : MonoBehaviour
             yield return null;
         }
 
-        if (time == 0f)
-        {
-            TimeElapsed?.Invoke(this);
-            Ended = true;
-        }
+        yield return new WaitForSeconds(0.1f);//Это хрень нужна чтобы анимация успела закончится
+        TimeElapsed?.Invoke(this);
+        Ended = true;
     }
     
     public void TimeStart()

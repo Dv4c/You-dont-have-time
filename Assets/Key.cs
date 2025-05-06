@@ -5,6 +5,7 @@ using UnityEngine;
 public class Key : MonoBehaviour
 {
     public static event Action<Key> OnKeyDisabled;
+    public bool IsTaken { get; private set; }
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,6 +13,7 @@ public class Key : MonoBehaviour
         {
             transform.DOScale(Vector3.zero, 0.1f);
             Debug.Log(mainHero);
+            IsTaken = true;
             this.enabled = false;
         } 
     }

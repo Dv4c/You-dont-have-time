@@ -28,7 +28,7 @@ public class Platform : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent(out MainHero mainHero))
         {
-            mainHero.gameObject.transform.SetParent(null);
+            mainHero.transform.SetParent(null);
         }
     }
 }

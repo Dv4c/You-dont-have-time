@@ -22,7 +22,7 @@ public class Level
     {
         if (_indexCurrentScene == _maxScenes)
         {
-            Debug.Log("_indexCurrentScene == _maxScenes");
+            Debug.Log("All levels complete");
             return;
         }
 
