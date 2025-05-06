@@ -1,4 +1,4 @@
-
+using System;
 using System.Collections;
 using DG.Tweening;
 using UnityEngine;
@@ -7,8 +7,10 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] private float time; 
     [SerializeField] private Animator animator;
+
+    public event Action<float> Taken;
     
-    private void Start()
+    public void Init()
     {
         TimeStart();
         StartCoroutine(Subtract());
@@ -36,8 +38,8 @@ public class Timer : MonoBehaviour
         if (other.gameObject.TryGetComponent(out MainHero mainHero))
         {
             transform.DOScale(Vector3.zero, 0.1f);
-            Debug.Log(mainHero);
             this.enabled = false;
+            Taken?.Invoke(time * 1.5f);
         } 
     }
 }

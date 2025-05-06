@@ -6,13 +6,29 @@ public class TIME : MonoBehaviour
 {
     [SerializeField] private float time; 
     [SerializeField] private Animator animator;
+    
+    private Timer _timer;
+    
     public event Action<TIME> TimeElapsed;
     public bool Ended { get; private set; } = false;
     
-    public void Init()
+    public void Init(Timer timer)
     {
+        _timer = timer;
+        _timer.Taken += OnTaken;
         TimeStart();
         StartCoroutine(Subtract());
+    }
+
+    private void OnDisable()
+    {
+        _timer.Taken -= OnTaken;
+    }
+
+    private void OnTaken(float addTime)
+    {
+        time += addTime;
+        TimeStart();
     }
 
     IEnumerator Subtract()

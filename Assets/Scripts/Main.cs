@@ -13,11 +13,13 @@ public class Main : MonoBehaviour
     [SerializeField] private Exit _exit;
     [SerializeField] private TIME _time;
     [SerializeField] private Key _key;
+    [SerializeField] private Timer _timer;
 
     private void Start()
     {
         _time.TimeElapsed += OnTimerElapsed;
-        _time.Init();
+        _time.Init(_timer);
+        _timer.Init();
         _level.Init();
         _exit.Init(_level, _time, _key);
         player.transform.position = spawnPos;
