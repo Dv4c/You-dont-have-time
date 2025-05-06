@@ -1,9 +1,13 @@
 using System;
 using DG.Tweening;
+using UltEvents;
 using UnityEngine;
 
 public class Key : MonoBehaviour
 {
+    public static event Action<Key> OnKeyDisabled;
+    public UltEvent OnKeyUp;
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.TryGetComponent(out MainHero mainHero))
@@ -12,5 +16,11 @@ public class Key : MonoBehaviour
             Debug.Log(mainHero);
             this.enabled = false;
         } 
+    }
+    
+
+    private void OnDisable()
+    {
+        OnKeyDisabled?.Invoke(this);
     }
 }
