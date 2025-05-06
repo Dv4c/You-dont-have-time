@@ -108,9 +108,9 @@ public class MainHero : MonoBehaviour
                 animator.SetInteger("State", 4);
                 break;
         }
+        Debug.Log(currentState);
     }
-
-    // Для отображения радиуса проверки земли в редакторе
+    
     void OnDrawGizmosSelected()
     {
         if (groundCheck != null)
