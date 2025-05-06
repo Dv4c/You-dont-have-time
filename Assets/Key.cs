@@ -1,12 +1,10 @@
 using System;
 using DG.Tweening;
-using UltEvents;
 using UnityEngine;
 
 public class Key : MonoBehaviour
 {
     public static event Action<Key> OnKeyDisabled;
-    public UltEvent OnKeyUp;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
