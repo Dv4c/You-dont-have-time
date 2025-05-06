@@ -1,0 +1,23 @@
+using System;
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class Pit : MonoBehaviour
+{
+    [SerializeField] private bool isExit;
+    private Level _level;
+
+    public void Init(Level level)
+    {
+        _level = level;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Next");
+        if (other.GetComponent<MainHero>() && isExit)
+        {
+            _level.NextLevel();
+        }
+    }
+}

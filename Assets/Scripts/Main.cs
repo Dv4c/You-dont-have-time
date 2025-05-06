@@ -13,7 +13,11 @@ public class Main : MonoBehaviour
     [SerializeField] private Exit _exit;
     [SerializeField] private TIME _time;
     [SerializeField] private Key _key;
+
     [SerializeField] private Timer _timer;
+
+
+    [SerializeField] private Pit _pit;
 
     private void Start()
     {
@@ -22,18 +26,19 @@ public class Main : MonoBehaviour
         _timer.Init();
         _level.Init();
         _exit.Init(_level, _time, _key);
+        _pit?.Init(_level);
         player.transform.position = spawnPos;
     }
 
     private void Update()
     {
-#if (UNITY_EDITOR)
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            RestartGame();
-        }
-#endif
-}
+    #if (UNITY_EDITOR)
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                RestartGame();
+            }
+    #endif
+    }
 
     private void OnTimerElapsed(TIME time)
     {

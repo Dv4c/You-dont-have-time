@@ -6,7 +6,7 @@ public class Exit : MonoBehaviour
     [SerializeField] private GameObject openBackground;
     [SerializeField] private GameObject openFront;
     [SerializeField] private GameObject close;
-    [SerializeField] private GameObject Trigger;
+    [SerializeField] private BoxCollider2D Trigger;
 
     private Level _level;
     private TIME _time;
@@ -25,7 +25,7 @@ public class Exit : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("OnTriggerEnter");
-        if (_time.Ended || _key.IsTaken == false)
+        if (_time.Ended || !_key.IsTaken)
         {
             return;
         }
@@ -45,7 +45,7 @@ public class Exit : MonoBehaviour
     {
         openBackground.SetActive(state);
         openFront.SetActive(state);
-        Trigger.SetActive(state);
+        Trigger.enabled = state;
         close.SetActive(!state);
         state = !state;
     }
