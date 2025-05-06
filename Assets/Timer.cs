@@ -1,4 +1,4 @@
-using System;
+
 using System.Collections;
 using DG.Tweening;
 using UnityEngine;
@@ -25,21 +25,19 @@ public class Timer : MonoBehaviour
     
     public void TimeStart()
     {
-        
         animator.speed = 2f / time;
         animator.SetTrigger("t");
         animator.Play("Time", -1, 0f);
     }
 
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.TryGetComponent(out MainHero mainHero))
+        if (other.gameObject.TryGetComponent(out MainHero mainHero))
         {
             transform.DOScale(Vector3.zero, 0.1f);
             Debug.Log(mainHero);
             this.enabled = false;
-        }
+        } 
     }
-
-    
 }
