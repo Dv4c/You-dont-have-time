@@ -1,0 +1,1741 @@
+fileFormatVersion: 2
+guid: 00a9243fb5974734e9ec5d756707acca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -719389334546632447
+    second: you dont have time_0
+  - first:
+      213: 8386616621364273754
+    second: you dont have time_1
+  - first:
+      213: -3194217919844692249
+    second: you dont have time_2
+  - first:
+      213: -6854629132453774672
+    second: you dont have time_3
+  - first:
+      213: 8776714858280515702
+    second: you dont have time_4
+  - first:
+      213: -6046634281764499180
+    second: you dont have time_5
+  - first:
+      213: 6090911104236038362
+    second: you dont have time_6
+  - first:
+      213: 6445899903323284420
+    second: you dont have time_7
+  - first:
+      213: -6953794374177648263
+    second: you dont have time_8
+  - first:
+      213: 1445835918181730
+    second: you dont have time_9
+  - first:
+      213: -9074469349373403472
+    second: you dont have time_10
+  - first:
+      213: 2093528899816756249
+    second: you dont have time_11
+  - first:
+      213: -3483367528234710464
+    second: you dont have time_12
+  - first:
+      213: 8440254330871077009
+    second: you dont have time_13
+  - first:
+      213: -4760918792440974498
+    second: you dont have time_14
+  - first:
+      213: 3699955210182612354
+    second: you dont have time_15
+  - first:
+      213: 1659158712316964518
+    second: you dont have time_16
+  - first:
+      213: 6287335032979685391
+    second: you dont have time_17
+  - first:
+      213: -2622248483933756191
+    second: you dont have time_18
+  - first:
+      213: -2421448341012443061
+    second: you dont have time_19
+  - first:
+      213: 7827805667413846005
+    second: you dont have time_20
+  - first:
+      213: -2639692193367697901
+    second: you dont have time_21
+  - first:
+      213: -4859382864089060555
+    second: you dont have time_22
+  - first:
+      213: 3406371569991801385
+    second: you dont have time_23
+  - first:
+      213: -6520904623944362161
+    second: you dont have time_24
+  - first:
+      213: -384904895805622503
+    second: you dont have time_25
+  - first:
+      213: 444734470222720423
+    second: you dont have time_26
+  - first:
+      213: 3487782762699964406
+    second: you dont have time_27
+  - first:
+      213: -285709777665213835
+    second: you dont have time_28
+  - first:
+      213: 5685663225582332788
+    second: you dont have time_29
+  - first:
+      213: 2480446406125084773
+    second: you dont have time_30
+  - first:
+      213: -4389180161193066944
+    second: you dont have time_31
+  - first:
+      213: 3357300964393185558
+    second: you dont have time_32
+  - first:
+      213: -2590212808916831774
+    second: you dont have time_33
+  - first:
+      213: 6162179442952226652
+    second: you dont have time_34
+  - first:
+      213: 2887597789877670499
+    second: you dont have time_35
+  - first:
+      213: -8996504186088727623
+    second: you dont have time_36
+  - first:
+      213: 2211506043497693628
+    second: you dont have time_37
+  - first:
+      213: 3884179486882167479
+    second: you dont have time_38
+  - first:
+      213: 5762386751118021282
+    second: you dont have time_39
+  - first:
+      213: -5625995444183916730
+    second: you dont have time_40
+  - first:
+      213: -1611848730120983193
+    second: you dont have time_41
+  - first:
+      213: -2149261648356067743
+    second: you dont have time_42
+  - first:
+      213: -5501297386168240832
+    second: you dont have time_43
+  - first:
+      213: 2297549809191789498
+    second: you dont have time_44
+  - first:
+      213: 589113630258125349
+    second: you dont have time_45
+  - first:
+      213: -608270017454756834
+    second: you dont have time_46
+  - first:
+      213: -8342327927142629348
+    second: you dont have time_47
+  - first:
+      213: -4556249770811014928
+    second: you dont have time_48
+  - first:
+      213: 766595477164802102
+    second: you dont have time_49
+  - first:
+      213: 1539632017052850926
+    second: you dont have time_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: you dont have time_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 216
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aea5a9ee04860710800000000000000
+      internalID: 1659158712316964518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f008f9896e9114750800000000000000
+      internalID: 6287335032979685391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4625aa5e6eb9bd0800000000000000
+      internalID: -2622248483933756191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_19
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b409eff2099456ed0800000000000000
+      internalID: -2421448341012443061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_20
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7edf0f7c3f1ac60800000000000000
+      internalID: 7827805667413846005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31652f19feded5bd0800000000000000
+      internalID: -2639692193367697901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53be95ef701009cb0800000000000000
+      internalID: -4859382864089060555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_23
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ad95a25ecd54f20800000000000000
+      internalID: 3406371569991801385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_40
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f937983f27ce1b0800000000000000
+      internalID: -5625995444183916730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d6971be1091a9e0800000000000000
+      internalID: -1611848730120983193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_42
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166bd580be94c22e0800000000000000
+      internalID: -2149261648356067743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04538a5ac2777a3b0800000000000000
+      internalID: -5501297386168240832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_44
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3a4a6e06982ef10800000000000000
+      internalID: 2297549809191789498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a50e7b9b3fc2800800000000000000
+      internalID: 589113630258125349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ca61254adfe87f0800000000000000
+      internalID: -608270017454756834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_47
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10c7d623f81a3c80800000000000000
+      internalID: -8342327927142629348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_48
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0cad639f2f4c0c0800000000000000
+      internalID: -4556249770811014928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63044de568e73aa00800000000000000
+      internalID: 766595477164802102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_50
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eead045892fdd5510800000000000000
+      internalID: 1539632017052850926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f230f318dc1ba4b9a6dcff4513b1df
+      internalID: 259299923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_52
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7fa1f786b4a1a44b45d215d5b49375
+      internalID: 431086519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6066f276cd6b5a40848c9152f5fafb9
+      internalID: 449909675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_54
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de0fb8b1d159ab4bb4d9407e902e251
+      internalID: 1331367100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_55
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4275e35ef2c95af4f817aee3365106f4
+      internalID: -1713457261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_56
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793ce44e16d98614d97603e10f70fd07
+      internalID: 2043195299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086d2156eb35d634c853ee7c854b5dfb
+      internalID: -241731078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_58
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5fe92bb3d66bc4aae53ac31dd0ee56
+      internalID: 439330448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_59
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a7b39169c00984a9cc4e4cc42ac459
+      internalID: -2087012433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_60
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a9c8a1a32c6ca4e96ebf95ae7ee4a1
+      internalID: -1465675627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9f3c8f20617d947b0e1634db74914f
+      internalID: -368412132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_62
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74b288ec4b07a94bbead7c18b93e8f9
+      internalID: 1610112001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_63
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23cc6ac5e08e5c4dbfca4fe131e75cd
+      internalID: -1860497982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_64
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd7a80d3f8f6234e80b049c1899d76e
+      internalID: -1926751152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_81
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 184
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bea32e9b6db5674ba4f1931c8f80887
+      internalID: -1184617598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 184
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a825ef53353664daaa883aa13d7b09
+      internalID: 1554997611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 184
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dca0197ec6be849b072de1a818234d
+      internalID: 100245098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_84
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 184
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0d1dd5793bc0d4eb1d963245d68f51
+      internalID: 1307058397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_101
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 168
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb5624749d3b9e4598c910df1c3b9f5
+      internalID: -1282170794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 168
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5620fb53c1a88964dad565cce3a7edbd
+      internalID: -92477158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_103
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 168
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207c7c109c9fe394f93711142fa07144
+      internalID: -1423684742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_104
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 168
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b9cf7f60756ac419b61364b7525cc1
+      internalID: 1150969759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_105
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 168
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94325a30810d4484c9db3f5067787399
+      internalID: -1353812825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_144
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 136
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75e3de2359aceb4d90cb0bbd2694a74
+      internalID: 1928364571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_147
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 136
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c6725ee802f3941b3b35a7cadfc86d
+      internalID: 901243085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_186
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfeb8a23e2ccce4cb434d748f442822
+      internalID: -422248310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_222
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 72
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740fe87eb302c654eb676370099a7759
+      internalID: -211521002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_256
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 40
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2c8031b018c5d41abbd88ec8fbbf45
+      internalID: 1930315996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_274
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 24
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01e37c50f6ca294f8d13ff2a9764534
+      internalID: -168695272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_276
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 256
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061423db305273a43b3969655f082dbf
+      internalID: -939412783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_122
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 136
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f18bbbd10038c4a99a1899e972c8ea
+      internalID: -1754158166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_0
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 168
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4481c879e35ff4418c54085caad528d
+      internalID: -719389334546632447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 72
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5eb1a1f29ab34740aae069d15ef362e
+      internalID: 1052462442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 72
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34d71e0af45f4e48abc17f79694b8eb
+      internalID: -956770597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f46b4768b93afd244bccc633dda69776
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      you dont have time_0: -719389334546632447
+      you dont have time_1: 1052462442
+      you dont have time_10: 1184345147
+      you dont have time_100: -901264521
+      you dont have time_101: -1282170794
+      you dont have time_102: -92477158
+      you dont have time_103: -1423684742
+      you dont have time_104: 1150969759
+      you dont have time_105: -1353812825
+      you dont have time_106: 39297221
+      you dont have time_107: 1518988710
+      you dont have time_108: 1042180212
+      you dont have time_109: 1251124984
+      you dont have time_11: -130689460
+      you dont have time_110: 1336345667
+      you dont have time_111: -1910868612
+      you dont have time_112: 237229676
+      you dont have time_113: -1960079404
+      you dont have time_114: -1094910558
+      you dont have time_115: 1014844887
+      you dont have time_116: 417574268
+      you dont have time_117: -678731867
+      you dont have time_118: 1231684264
+      you dont have time_119: -1456212414
+      you dont have time_12: 1687444530
+      you dont have time_120: -187734366
+      you dont have time_121: -1044719273
+      you dont have time_122: -1754158166
+      you dont have time_123: 1628183781
+      you dont have time_124: -39934390
+      you dont have time_125: -1402678685
+      you dont have time_126: -531083387
+      you dont have time_127: -1600701374
+      you dont have time_128: -42236755
+      you dont have time_129: 1351487473
+      you dont have time_13: -532871584
+      you dont have time_130: 693449196
+      you dont have time_131: -1278938136
+      you dont have time_132: 2144931486
+      you dont have time_133: 1818410613
+      you dont have time_134: 1630265370
+      you dont have time_135: 785882504
+      you dont have time_136: 159319590
+      you dont have time_137: -1968283395
+      you dont have time_138: -684675624
+      you dont have time_139: 1609215802
+      you dont have time_14: -121138704
+      you dont have time_140: 1443137222
+      you dont have time_141: 824929167
+      you dont have time_142: 1497321233
+      you dont have time_143: 1285214324
+      you dont have time_144: 1928364571
+      you dont have time_145: 8305640
+      you dont have time_146: 1990371975
+      you dont have time_147: 901243085
+      you dont have time_148: -304645475
+      you dont have time_149: -1932750345
+      you dont have time_15: 655664979
+      you dont have time_150: 1104006895
+      you dont have time_151: 1235998867
+      you dont have time_152: 25466470
+      you dont have time_153: -1963882062
+      you dont have time_154: -1909134010
+      you dont have time_155: -223114675
+      you dont have time_156: -1989261061
+      you dont have time_157: 1344859430
+      you dont have time_158: -2000691569
+      you dont have time_159: -1813939943
+      you dont have time_16: 1659158712316964518
+      you dont have time_160: -263130114
+      you dont have time_161: -88980327
+      you dont have time_162: -506822985
+      you dont have time_163: 1124132027
+      you dont have time_164: 328118559
+      you dont have time_165: 189143664
+      you dont have time_166: -1845630792
+      you dont have time_167: -822448571
+      you dont have time_168: 1080549925
+      you dont have time_169: -325911638
+      you dont have time_17: 6287335032979685391
+      you dont have time_170: -517099308
+      you dont have time_171: 1373982978
+      you dont have time_172: -2029062959
+      you dont have time_173: 811528798
+      you dont have time_174: 909754279
+      you dont have time_175: 1780981561
+      you dont have time_176: 1421292778
+      you dont have time_177: 1084126319
+      you dont have time_178: -1136689514
+      you dont have time_179: 1734832897
+      you dont have time_18: -2622248483933756191
+      you dont have time_180: -413172944
+      you dont have time_181: -1384139019
+      you dont have time_182: 1689327280
+      you dont have time_183: 279147338
+      you dont have time_184: -1474948705
+      you dont have time_185: -1505441808
+      you dont have time_186: -422248310
+      you dont have time_187: 1396399863
+      you dont have time_188: -2055646602
+      you dont have time_189: 1634789958
+      you dont have time_19: -2421448341012443061
+      you dont have time_190: 655052006
+      you dont have time_191: -1731630773
+      you dont have time_192: -2048435162
+      you dont have time_193: -1840833773
+      you dont have time_194: -1245211244
+      you dont have time_195: 820775191
+      you dont have time_196: -1919900247
+      you dont have time_197: 963605770
+      you dont have time_198: 1642742956
+      you dont have time_199: -1733923433
+      you dont have time_2: -956770597
+      you dont have time_20: 7827805667413846005
+      you dont have time_200: 1899901287
+      you dont have time_201: 36270846
+      you dont have time_202: 1391324970
+      you dont have time_203: -1876856026
+      you dont have time_204: 1466871453
+      you dont have time_205: 232579244
+      you dont have time_206: 7091746
+      you dont have time_207: 848960646
+      you dont have time_208: -6162392
+      you dont have time_209: 106360034
+      you dont have time_21: -2639692193367697901
+      you dont have time_210: -1809985783
+      you dont have time_211: 811046505
+      you dont have time_212: -1794021510
+      you dont have time_213: -1264048470
+      you dont have time_214: -483234320
+      you dont have time_215: 2082692098
+      you dont have time_216: -468492783
+      you dont have time_217: -2042192191
+      you dont have time_218: -1689893425
+      you dont have time_219: -793711860
+      you dont have time_22: -4859382864089060555
+      you dont have time_220: 1789345577
+      you dont have time_221: 1579974434
+      you dont have time_222: -211521002
+      you dont have time_223: -353341910
+      you dont have time_224: -1956956898
+      you dont have time_225: 473892388
+      you dont have time_226: 975171266
+      you dont have time_227: -1542944161
+      you dont have time_228: 174391964
+      you dont have time_229: -903519022
+      you dont have time_23: 3406371569991801385
+      you dont have time_230: 62653704
+      you dont have time_231: 355397163
+      you dont have time_232: -916241345
+      you dont have time_233: 701555712
+      you dont have time_234: 6647358
+      you dont have time_235: 2143392181
+      you dont have time_236: -265821497
+      you dont have time_237: -253536647
+      you dont have time_238: -2087993950
+      you dont have time_239: -1035043837
+      you dont have time_24: -111605831
+      you dont have time_240: -872055606
+      you dont have time_241: 1047097128
+      you dont have time_242: -1949167784
+      you dont have time_243: -1441064057
+      you dont have time_244: 336839649
+      you dont have time_245: -1795312716
+      you dont have time_246: -992029667
+      you dont have time_247: 656845204
+      you dont have time_248: -2108255041
+      you dont have time_249: -456772482
+      you dont have time_25: 592652509
+      you dont have time_250: 225785551
+      you dont have time_251: 845340674
+      you dont have time_252: 114564069
+      you dont have time_253: 2085655707
+      you dont have time_254: 1220817451
+      you dont have time_255: -1388748615
+      you dont have time_256: 1930315996
+      you dont have time_257: -1840471694
+      you dont have time_258: -1166406095
+      you dont have time_259: -1221400416
+      you dont have time_26: -670406718
+      you dont have time_260: 1182262661
+      you dont have time_261: 214755826
+      you dont have time_262: -1829414447
+      you dont have time_263: 2093214186
+      you dont have time_264: -179387390
+      you dont have time_265: -665378040
+      you dont have time_266: 650688450
+      you dont have time_267: -1098451576
+      you dont have time_268: 671345831
+      you dont have time_269: -1305364702
+      you dont have time_27: -287589409
+      you dont have time_270: 723747868
+      you dont have time_271: 602685271
+      you dont have time_272: -1084629858
+      you dont have time_273: -1121116247
+      you dont have time_274: -168695272
+      you dont have time_275: -1096112180
+      you dont have time_276: -939412783
+      you dont have time_277: 1759840892
+      you dont have time_278: 2051690362
+      you dont have time_279: 2028198240
+      you dont have time_28: -1486734699
+      you dont have time_280: -1884962972
+      you dont have time_281: -1942441506
+      you dont have time_282: -1096994630
+      you dont have time_283: -1708425411
+      you dont have time_284: -188046006
+      you dont have time_285: -1607363252
+      you dont have time_286: 867511245
+      you dont have time_287: -707169229
+      you dont have time_288: -84298807
+      you dont have time_289: 1853096049
+      you dont have time_29: 1532790236
+      you dont have time_290: 1509260748
+      you dont have time_291: -1824494428
+      you dont have time_3: 1454491375
+      you dont have time_30: -1914275614
+      you dont have time_31: -1565492373
+      you dont have time_32: 1167007642
+      you dont have time_33: -150327562
+      you dont have time_34: -2085659885
+      you dont have time_35: 728425004
+      you dont have time_36: -1286738162
+      you dont have time_37: 1012788093
+      you dont have time_38: 1581410317
+      you dont have time_39: -1117292908
+      you dont have time_4: 1731441619
+      you dont have time_40: -5625995444183916730
+      you dont have time_41: -1611848730120983193
+      you dont have time_42: -2149261648356067743
+      you dont have time_43: -5501297386168240832
+      you dont have time_44: 2297549809191789498
+      you dont have time_45: 589113630258125349
+      you dont have time_46: -608270017454756834
+      you dont have time_47: -8342327927142629348
+      you dont have time_48: -4556249770811014928
+      you dont have time_49: 766595477164802102
+      you dont have time_5: 1752837072
+      you dont have time_50: 1539632017052850926
+      you dont have time_51: 259299923
+      you dont have time_52: 431086519
+      you dont have time_53: 449909675
+      you dont have time_54: 1331367100
+      you dont have time_55: -1713457261
+      you dont have time_56: 2043195299
+      you dont have time_57: -241731078
+      you dont have time_58: 439330448
+      you dont have time_59: -2087012433
+      you dont have time_6: -250494402
+      you dont have time_60: -1465675627
+      you dont have time_61: -368412132
+      you dont have time_62: 1610112001
+      you dont have time_63: -1860497982
+      you dont have time_64: -1926751152
+      you dont have time_65: 117836744
+      you dont have time_66: 1352324804
+      you dont have time_67: -897887363
+      you dont have time_68: 1657733258
+      you dont have time_69: -949342789
+      you dont have time_7: 116642914
+      you dont have time_70: 1046553352
+      you dont have time_71: -245301841
+      you dont have time_72: -806085487
+      you dont have time_73: -172063013
+      you dont have time_74: -520349924
+      you dont have time_75: -1232529996
+      you dont have time_76: -521043180
+      you dont have time_77: -723468160
+      you dont have time_78: -1763808138
+      you dont have time_79: 568770273
+      you dont have time_8: 226822789
+      you dont have time_80: -202805644
+      you dont have time_81: -1184617598
+      you dont have time_82: 1554997611
+      you dont have time_83: 100245098
+      you dont have time_84: 1307058397
+      you dont have time_85: -1553343761
+      you dont have time_86: 209552844
+      you dont have time_87: -613465510
+      you dont have time_88: 1650509737
+      you dont have time_89: 67982827
+      you dont have time_9: -758815707
+      you dont have time_90: -844168727
+      you dont have time_91: 194069172
+      you dont have time_92: 20780286
+      you dont have time_93: -584216020
+      you dont have time_94: -123433140
+      you dont have time_95: -1086469829
+      you dont have time_96: -1161040573
+      you dont have time_97: -1092410375
+      you dont have time_98: 911777859
+      you dont have time_99: -1609005340
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
