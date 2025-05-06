@@ -14,8 +14,7 @@ public class Pit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Next");
-        if (other.GetComponent<MainHero>() && isExit)
+        if (other.transform.GetComponent<MainHero>() && isExit)
         {
             _level.NextLevel();
         }

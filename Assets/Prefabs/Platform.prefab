@@ -93,6 +93,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 375b3d69fd258f542bd2e04a0bb04c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chains: {fileID: 5579940159866972309}
+  board: {fileID: 2128900224638859431}
 --- !u!1 &2128900224638859431
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,7 +106,7 @@ GameObject:
   - component: {fileID: 4761284006826383536}
   - component: {fileID: 3032438683150285583}
   m_Layer: 6
-  m_Name: you dont have time_52
+  m_Name: Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,7 +193,7 @@ GameObject:
   - component: {fileID: 4335253626896284929}
   - component: {fileID: 7515830143463067693}
   m_Layer: 6
-  m_Name: you dont have time_55
+  m_Name: Chains
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

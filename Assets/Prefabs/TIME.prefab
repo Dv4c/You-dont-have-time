@@ -155,5 +155,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3efc0ff7cb3357d4589558cdd9c38f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 1
+  time: 2
   animator: {fileID: 702806946417882564}

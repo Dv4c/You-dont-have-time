@@ -14,15 +14,18 @@ public class TIME : MonoBehaviour
     
     public void Init(Timer timer)
     {
+        
         _timer = timer;
-        _timer.Taken += OnTaken;
+        _timer.Taken += OnTaken;    
+        
         TimeStart();
         StartCoroutine(Subtract());
     }
 
     private void OnDisable()
     {
-        _timer.Taken -= OnTaken;
+        if  (_timer != null)
+            _timer.Taken -= OnTaken;
     }
 
     private void OnTaken(float addTime)

@@ -6,7 +6,7 @@ public class Main : MonoBehaviour
 {
     [SerializeField] private GameObject time;
     [SerializeField] private GameObject player;
-    [SerializeField] private Vector2 spawnPos;
+    [SerializeField] private Transform spawnPos;
     
     [Header("Roots")]
     [SerializeField] private Level _level;
@@ -15,28 +15,27 @@ public class Main : MonoBehaviour
     [SerializeField] private Key _key;
 
     [SerializeField] private Timer _timer;
-
-
+    
     [SerializeField] private Pit _pit;
 
     private void Start()
     {
         _time.TimeElapsed += OnTimerElapsed;
-        _time.Init(_timer);
-        _timer.Init();
-        _level.Init();
-        _exit.Init(_level, _time, _key);
+        _timer?.Init();
+        _time?.Init(_timer);
+        _level?.Init();
+        _exit?.Init(_level, _time, _key);
         _pit?.Init(_level);
-        player.transform.position = spawnPos;
+        player.transform.position = spawnPos.transform.position;
     }
 
     private void Update()
     {
     #if (UNITY_EDITOR)
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                RestartGame();
-            }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            RestartGame();
+        }
     #endif
     }
 

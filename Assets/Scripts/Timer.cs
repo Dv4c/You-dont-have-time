@@ -38,7 +38,7 @@ public class Timer : MonoBehaviour
         if (other.gameObject.TryGetComponent(out MainHero mainHero))
         {
             transform.DOScale(Vector3.zero, 0.1f);
-            this.enabled = false;
+            this.gameObject.SetActive(false); 
             Taken?.Invoke(time * 1.5f);
         } 
     }

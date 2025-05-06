@@ -94,7 +94,6 @@ public class MainHero : MonoBehaviour
         
         switch (currentState)
         {
-            
             case PlayerState.Idle:
                 animator.SetInteger("State", 0);
                 break;
@@ -108,7 +107,6 @@ public class MainHero : MonoBehaviour
                 animator.SetInteger("State", 4);
                 break;
         }
-        Debug.Log(currentState);
     }
     
     void OnDrawGizmosSelected()

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6951316614307143535}
   - component: {fileID: 993329104654244275}
   m_Layer: 0
-  m_Name: Trigger
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,6 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952390645784326608}
   - component: {fileID: 4958999703678210818}
+  - component: {fileID: 6695354624906741962}
   m_Layer: 0
   m_Name: PIT
   m_TagString: Untagged
@@ -154,7 +155,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.030007243, y: -0.5016329}
+  m_Offset: {x: -0.0008639991, y: -0.1319749}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -164,5 +165,18 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5764832, y: 0.19291425}
+  m_Size: {x: 0.29725164, y: 0.07940918}
   m_EdgeRadius: 0
+--- !u!114 &6695354624906741962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6657447890583708599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258a2b4bfaf7964ab4f196882c35be7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExit: 1

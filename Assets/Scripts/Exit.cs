@@ -32,6 +32,7 @@ public class Exit : MonoBehaviour
         
         if (other.GetComponent<MainHero>())
         {
+            Debug.Log("Next");
             _level.NextLevel();
         }
     }
