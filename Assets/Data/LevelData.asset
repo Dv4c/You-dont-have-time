@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9787e4836f694b649b7e767ccffeb760, type: 3}
   m_Name: LevelData
   m_EditorClassIdentifier: 
-  _maxScenes: 7
+  _maxScenes: 4

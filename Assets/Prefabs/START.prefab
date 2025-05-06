@@ -46,9 +46,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: {fileID: 0}
   player: {fileID: 0}
-  spawnPos: {x: 0, y: 0}
+  spawnPos: {fileID: 0}
   _level:
     _level: {fileID: 11400000, guid: 2cf1ecfbc7c869948909c6c603313319, type: 2}
   _exit: {fileID: 0}
   _time: {fileID: 0}
   _key: {fileID: 0}
+  _timer: {fileID: 0}
+  _pit: {fileID: 0}

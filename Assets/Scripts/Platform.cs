@@ -27,17 +27,17 @@ public class Platform : MonoBehaviour
             fadeOut: true
         );
         
-        if (other.gameObject.TryGetComponent(out MainHero mainHero))
-        {
-            mainHero.gameObject.transform.SetParent(transform);
-        }
+        // if (other.gameObject.TryGetComponent(out MainHero mainHero))
+        // {
+        //     mainHero.gameObject.transform.SetParent(transform);
+        // }
     }
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.TryGetComponent(out MainHero mainHero))
-        {
-            mainHero.transform.SetParent(null);
-        }
+        // if (other.gameObject.TryGetComponent(out MainHero mainHero))
+        // {
+        //     mainHero.transform.SetParent(null);
+        // }
     }
 }

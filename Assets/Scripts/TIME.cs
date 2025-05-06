@@ -14,9 +14,12 @@ public class TIME : MonoBehaviour
     
     public void Init(Timer timer)
     {
-        
-        _timer = timer;
-        _timer.Taken += OnTaken;    
+        if (timer != null)
+        {
+            _timer = timer;
+            _timer.Taken += OnTaken;    
+        }
+            
         
         TimeStart();
         StartCoroutine(Subtract());
@@ -24,8 +27,12 @@ public class TIME : MonoBehaviour
 
     private void OnDisable()
     {
-        if  (_timer != null)
+        if (_timer != null)
+        {
             _timer.Taken -= OnTaken;
+            Debug.Log("OnTaken");
+        }
+            
     }
 
     private void OnTaken(float addTime)

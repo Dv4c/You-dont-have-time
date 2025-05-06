@@ -39,7 +39,8 @@ public class Timer : MonoBehaviour
         {
             transform.DOScale(Vector3.zero, 0.1f);
             this.gameObject.SetActive(false); 
-            Taken?.Invoke(time * 1.5f);
+            //Taken?.Invoke(time * 1.5f);
+            Taken?.Invoke(time); // пока так
         } 
     }
 }
