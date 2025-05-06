@@ -6,10 +6,10 @@ public class TIME : MonoBehaviour
 {
     [SerializeField] private float time; 
     [SerializeField] private Animator animator;
-    public static event Action<TIME> OnTimeElapsed;
+    public event Action<TIME> TimeElapsed;
+    public bool Ended { get; private set; } = false;
     
-    
-    private void Start()
+    public void Init()
     {
         TimeStart();
         StartCoroutine(Subtract());
@@ -25,7 +25,8 @@ public class TIME : MonoBehaviour
 
         if (time == 0f)
         {
-            OnTimeElapsed?.Invoke(this);
+            TimeElapsed?.Invoke(this);
+            Ended = true;
         }
     }
     
