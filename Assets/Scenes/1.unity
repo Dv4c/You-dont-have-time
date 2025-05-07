@@ -460,9 +460,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ComponentVersion: 1
-  m_AssetsPPU: 100
-  m_RefResolutionX: 256
-  m_RefResolutionY: 144
+  m_AssetsPPU: 200
+  m_RefResolutionX: 512
+  m_RefResolutionY: 288
   m_CropFrame: 4
   m_GridSnapping: 0
   m_FilterMode: 0
@@ -1759,6 +1759,10 @@ PrefabInstance:
       value: 0.72
       objectReference: {fileID: 0}
     - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
       value: 0
       objectReference: {fileID: 0}
@@ -1828,6 +1832,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7355747148916263688, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8587668947513190037, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
+      propertyPath: m_Antialiasing
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
