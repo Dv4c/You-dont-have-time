@@ -10,6 +10,7 @@ public class NextLevelView
     [SerializeField] private Image _image;
     [SerializeField] private Transform _firstPoint;
     [SerializeField] private Transform _secondPoint;
+    [SerializeField] private Transform _thirdPoint;
     [SerializeField] private NextLevelData _nextLevelData;
     
     private float _duration;
@@ -23,16 +24,18 @@ public class NextLevelView
         _waitNext = _nextLevelData.WaitNext;
     }
     
-    public IEnumerator PlayEndLevel()
+    public IEnumerator LerpToNext()
     {
+        Image.position = _firstPoint.position;
         yield return Image.DOMoveX(_secondPoint.position.x, _duration).WaitForCompletion();
     }
     
-    public IEnumerator PlayStartLevel()
+    public IEnumerator LerpFromNext()
     {
+        Debug.Log("LerpFromNext");
         Image.position = _secondPoint.position;
         yield return new WaitForSeconds(_waitNext);
-        yield return Image.DOMoveX(_firstPoint.position.x, _duration).WaitForCompletion();
+        yield return Image.DOMoveX(_thirdPoint.position.x, _duration).WaitForCompletion();
     }
 
     public IEnumerator PlayEndGame()

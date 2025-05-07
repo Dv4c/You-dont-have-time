@@ -1,4 +1,5 @@
 using System.Collections;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class NextLevelController
@@ -18,7 +19,10 @@ public class NextLevelController
         _behaviour = monoBehaviour;
         _level = level;
         _exit = exit;
-        _pit = pit;
+        
+        if (pit != null)
+            _pit = pit;
+        
         _player = player;
         _nextLevelView = nextLevelView;
     }
@@ -27,7 +31,10 @@ public class NextLevelController
     {
         _nextLevelView.Init();
         _exit.Exited += OnExited;
-        _pit.Exited += OnExited;
+        
+        if (_pit != null)
+            _pit.Exited += OnExited;
+        
         _behaviour.StartCoroutine(StartRoutine());
     }
 
@@ -52,8 +59,7 @@ public class NextLevelController
         }
             
         //_nextLevelView.Enable();
-        Debug.Log("Player");
-        yield return _nextLevelView.PlayStartLevel();
+        yield return _nextLevelView.LerpFromNext();
     }
     
     private IEnumerator ExitedRoutine()
@@ -67,7 +73,7 @@ public class NextLevelController
             yield break;
         }
 
-        yield return _nextLevelView.PlayEndLevel();
+        yield return _nextLevelView.LerpToNext();
         _level.NextLevel();
     }
 }
