@@ -32,7 +32,6 @@ public class TIME : MonoBehaviour
             _timer.Taken -= OnTaken;
             Debug.Log("OnTaken");
         }
-            
     }
 
     private void OnTaken(float addTime)

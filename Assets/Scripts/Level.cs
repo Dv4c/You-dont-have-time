@@ -11,6 +11,9 @@ public class Level
     private int _maxScenes;
 
     private int _indexNextScene => _indexCurrentScene + 1;
+    
+    public bool IsLastLevel => _indexCurrentScene == _maxScenes;
+    public bool IsFirstLevel => _indexCurrentScene == 0;
 
     public void Init()
     {
