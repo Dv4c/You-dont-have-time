@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.Serialization;
+
 public class MainHero : MonoBehaviour
 {
     private enum PlayerState
@@ -20,7 +22,8 @@ public class MainHero : MonoBehaviour
     private float moveInput; 
     private bool isGrounded; 
     private PlayerState currentState;
-    private bool _isActive = true;
+    
+    public bool IsActive { get; private set; } = true;
 
     void Start()
     {
@@ -30,7 +33,7 @@ public class MainHero : MonoBehaviour
 
     void Update()
     {
-        if (_isActive == false) 
+        if (IsActive == false) 
             return;
         
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
@@ -122,9 +125,19 @@ public class MainHero : MonoBehaviour
         }
     }
 
+    public void Enable()
+    {
+        IsActive = true;
+    }
+    
     public void Disable()
     {
-        _isActive = false;
+        IsActive = false;
         rb.linearVelocity = Vector2.zero;
+    }
+    
+    public bool IsPlayerMoved()
+    {
+        return rb.linearVelocity != Vector2.zero;
     }
 }

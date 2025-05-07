@@ -27,7 +27,7 @@ public class Main : MonoBehaviour
     {
         _time.TimeElapsed += OnTimerElapsed;
         _starterTime = new StarterTime();
-        _starterTime.Init(this).Started += InitTime;
+        _starterTime.Init(this, _player).Started += InitTime;
         
         _level?.Init();
         

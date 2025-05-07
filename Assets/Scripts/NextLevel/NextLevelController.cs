@@ -52,14 +52,16 @@ public class NextLevelController
 
     private IEnumerator StartRoutine()
     {
-        if (_level.IsLastLevel || _level.IsFirstLevel)
+        if (_level.IsFirstLevel)
         {
             Debug.Log("_level.IsLastLevel || _level.IsFirstLevel");
             yield break;
         }
             
         //_nextLevelView.Enable();
+        _player.Disable();
         yield return _nextLevelView.LerpFromNext();
+        _player.Enable();
     }
     
     private IEnumerator ExitedRoutine()

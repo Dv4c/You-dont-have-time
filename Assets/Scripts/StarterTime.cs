@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class StarterTime
 {
+    private MainHero _player;
+    
     public event Action Started; 
     
-    public StarterTime Init(MonoBehaviour monoBehaviour)
+    public StarterTime Init(MonoBehaviour monoBehaviour, MainHero player)
     {
         monoBehaviour.StartCoroutine(Start());
+        _player = player;
         return this;
     }
 
@@ -16,18 +19,12 @@ public class StarterTime
     {
         while (true)
         {
-            if (IsPlayerMoved())
+            if (_player.IsPlayerMoved())
                 break;
             
             yield return null;
         }
 
         Started?.Invoke();
-    }
-
-    private bool IsPlayerMoved()
-    {
-        return Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") < 0
-               || Input.GetKeyDown(KeyCode.Space);
     }
 }
