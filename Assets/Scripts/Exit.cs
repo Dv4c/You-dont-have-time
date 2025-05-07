@@ -13,6 +13,8 @@ public class Exit : MonoBehaviour
     private Key _key;
     private bool isOpen;
     
+    public event Action Exited;
+    
     public void Init(Level level, TIME time, Key key)
     {
         _level = level;
@@ -33,7 +35,8 @@ public class Exit : MonoBehaviour
         if (other.GetComponent<MainHero>())
         {
             Debug.Log("Next");
-            _level.NextLevel();
+            //_level.NextLevel();
+            Exited?.Invoke();
         }
     }
 

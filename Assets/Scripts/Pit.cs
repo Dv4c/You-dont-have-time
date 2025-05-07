@@ -7,6 +7,8 @@ public class Pit : MonoBehaviour
     [SerializeField] private bool isExit;
     private Level _level;
 
+    public event Action Exited;
+    
     public void Init(Level level)
     {
         _level = level;
@@ -16,7 +18,8 @@ public class Pit : MonoBehaviour
     {
         if (other.transform.GetComponent<MainHero>() && isExit)
         {
-            _level.NextLevel();
+            //_level.NextLevel();
+            Exited?.Invoke();
         }
     }
 }

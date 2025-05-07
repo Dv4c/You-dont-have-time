@@ -1205,6 +1205,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dddd2b4aaf245546b79de607475db39, type: 3}
+--- !u!114 &1662120945 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8288266631519411039, guid: 5dddd2b4aaf245546b79de607475db39, type: 3}
+  m_PrefabInstance: {fileID: 1662120944}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934033227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83c8f1986c841645acc9bb46d36bbc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1874026648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1646,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1934033227}
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 1662120945}
+    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: spawnPos
       value: 
       objectReference: {fileID: 0}
@@ -1693,11 +1708,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.99999994
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.9993017
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7250404773478750507, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_Name

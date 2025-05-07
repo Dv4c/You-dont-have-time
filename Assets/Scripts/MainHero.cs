@@ -20,6 +20,7 @@ public class MainHero : MonoBehaviour
     private float moveInput; 
     private bool isGrounded; 
     private PlayerState currentState;
+    private bool _isActive = true;
 
     void Start()
     {
@@ -29,6 +30,9 @@ public class MainHero : MonoBehaviour
 
     void Update()
     {
+        if (_isActive == false) 
+            return;
+        
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
         if (Mathf.Abs(moveInput) == 1f)
             transform.localScale = new Vector3(moveInput, 1, 1);
@@ -116,5 +120,11 @@ public class MainHero : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
         }
+    }
+
+    public void Disable()
+    {
+        _isActive = false;
+        rb.linearVelocity = Vector2.zero;
     }
 }
