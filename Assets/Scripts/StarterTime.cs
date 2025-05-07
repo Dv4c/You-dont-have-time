@@ -27,6 +27,7 @@ public class StarterTime
 
     private bool IsPlayerMoved()
     {
-        return Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Vertical") > 0;
+        return Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") < 0
+               || Input.GetKeyDown(KeyCode.Space);
     }
 }
