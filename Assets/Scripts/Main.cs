@@ -18,15 +18,24 @@ public class Main : MonoBehaviour
     
     [SerializeField] private Pit _pit;
 
+    private StarterTime _starterTime;
+    
     private void Start()
     {
         _time.TimeElapsed += OnTimerElapsed;
-        _timer?.Init();
-        _time?.Init(_timer);
+        _starterTime = new StarterTime();
+        _starterTime.Init(this).Started += InitTime;
+        
         _level?.Init();
         _exit?.Init(_level, _time, _key);
         _pit?.Init(_level);
         player.transform.position = spawnPos.transform.position;
+    }
+
+    private void InitTime()
+    {
+        _timer?.Init();
+        _time?.Init(_timer);
     }
 
     private void Update()
