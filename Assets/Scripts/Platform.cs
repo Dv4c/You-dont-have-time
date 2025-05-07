@@ -12,32 +12,19 @@ public class Platform : MonoBehaviour
         
         chains.transform.DOShakePosition(
             duration: 0.05f,
-            strength: new Vector3(0, 0.01f, 0), // вверх-вниз
+            strength: new Vector3(0, 0.02f, 0), // вверх-вниз
             vibrato: 1,
             randomness: 0,
             snapping: false,
             fadeOut: true
         );
         board.transform.DOShakePosition(
-            duration: 0.05f,
-            strength: new Vector3(0, 0.01f, 0), // вверх-вниз
+            duration: 0.1f,
+            strength: new Vector3(0, 0.02f, 0), // вверх-вниз
             vibrato: 1,
             randomness: 0,
             snapping: false,
             fadeOut: true
         );
-        
-        // if (other.gameObject.TryGetComponent(out MainHero mainHero))
-        // {
-        //     mainHero.gameObject.transform.SetParent(transform);
-        // }
-    }
-
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        // if (other.gameObject.TryGetComponent(out MainHero mainHero))
-        // {
-        //     mainHero.transform.SetParent(null);
-        // }
     }
 }
