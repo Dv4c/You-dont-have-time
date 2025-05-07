@@ -37,8 +37,12 @@ public class TIME : MonoBehaviour
 
     private void OnTaken(float addTime)
     {
-        time += addTime;
-        TimeStart();
+        if (addTime > 0.1f) //чтоб большое время не начиналось заново с большой скоростью
+        {
+            time += addTime;
+            TimeStart();    
+        }
+        
     }
 
     IEnumerator Subtract()
