@@ -7,8 +7,12 @@ public class Main : MonoBehaviour
     [SerializeField] private GameObject time;
     [SerializeField] private GameObject player;
     [SerializeField] private Transform spawnPos;
-
-    [Header("Roots")] 
+    [Header("Sounds")]
+    [SerializeField] private SoundsData sounds;
+    [SerializeField] private AudioSource audioSource;
+    
+    [Header("Roots")]
+    
     [SerializeField] private MainHero _player;
     [SerializeField] private Level _level;
     [SerializeField] private Exit _exit;
@@ -22,9 +26,11 @@ public class Main : MonoBehaviour
 
     private StarterTime _starterTime;
     private NextLevelController _levelController;
-    
+    private AudioSystem audioSystem;
     private void Start()
     {
+        audioSystem = new(audioSource, sounds);
+        G.Audio = audioSystem;
         _time.TimeElapsed += OnTimerElapsed;
         _starterTime = new StarterTime();
         _starterTime.Init(this, _player).Started += InitTime;
@@ -75,4 +81,11 @@ public class Main : MonoBehaviour
         _level.LevelFaile();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+}
+
+public static class G
+{
+    
+    public static AudioSystem Audio;
+    
 }

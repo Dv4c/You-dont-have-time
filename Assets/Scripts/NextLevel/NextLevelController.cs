@@ -79,7 +79,7 @@ public class NextLevelController
             Debug.Log("//StartAniamtionEndGame");
             yield break;
         }
-
+        _nextLevelView.SetSprite(_nextLevelView.LevelCompletedSprite);
         yield return _nextLevelView.LerpToNext();
         _level.NextLevel(true);
     }

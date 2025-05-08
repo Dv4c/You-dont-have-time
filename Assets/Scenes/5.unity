@@ -735,6 +735,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4c50ed7efba9a746aed4de5f18a2b7d, type: 3}
+--- !u!82 &1113982479 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4546042289368036724, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
+  m_PrefabInstance: {fileID: 4954342905338284926}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1210386151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,10 +1508,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 316355434}
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
-      propertyPath: _pit
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: time
       value: 
       objectReference: {fileID: 3635411187772533087}
@@ -1535,6 +1536,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 950025021}
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1113982479}
+    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: _nextLevelView._image
       value: 
       objectReference: {fileID: 1741248479}
@@ -1550,10 +1555,6 @@ PrefabInstance:
       propertyPath: _nextLevelView._secondPoint
       value: 
       objectReference: {fileID: 1741248476}
-    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
-      propertyPath: _nextLevelView._nextLevelData
-      value: 
-      objectReference: {fileID: 11400000, guid: 3931da82b9045f644b5df4b8278463a2, type: 2}
     - target: {fileID: 8378823116588842196, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.95

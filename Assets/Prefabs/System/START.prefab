@@ -47,6 +47,9 @@ MonoBehaviour:
   time: {fileID: 0}
   player: {fileID: 0}
   spawnPos: {fileID: 0}
+  sounds: {fileID: 11400000, guid: 6d8b73700b7908940af556cd6bd87065, type: 2}
+  audioSource: {fileID: 0}
+  _player: {fileID: 0}
   _level:
     _level: {fileID: 11400000, guid: 2cf1ecfbc7c869948909c6c603313319, type: 2}
   _exit: {fileID: 0}
@@ -54,3 +57,9 @@ MonoBehaviour:
   _key: {fileID: 0}
   _timer: {fileID: 0}
   _pit: {fileID: 0}
+  _nextLevelView:
+    _image: {fileID: 0}
+    _firstPoint: {fileID: 0}
+    _secondPoint: {fileID: 0}
+    _thirdPoint: {fileID: 0}
+    _nextLevelData: {fileID: 11400000, guid: 3931da82b9045f644b5df4b8278463a2, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aad9f7672f192049967b6447fcfca9a, type: 3}
+  m_Name: SoundsData
+  m_EditorClassIdentifier: 
+  Jump: {fileID: 8300000, guid: d4a0a35b24277ba43be0c20581f4b577, type: 3}
+  Restart: {fileID: 8300000, guid: 587ee8c8fcf93454eb61ee3f0760cfc8, type: 3}
+  Shake: {fileID: 8300000, guid: 587ee8c8fcf93454eb61ee3f0760cfc8, type: 3}
+  PickUpKey: {fileID: 8300000, guid: 70ae9ec46d9eb3e41813dbbfe5dc6aab, type: 3}
+  PickUpTime: {fileID: 8300000, guid: cb10edb6c9a9ee1478267986a31f1312, type: 3}

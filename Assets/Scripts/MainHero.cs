@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class MainHero : MonoBehaviour
 {
@@ -27,11 +26,10 @@ public class MainHero : MonoBehaviour
 
     void Start()
     {
-
         currentState = PlayerState.Idle; 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (IsActive == false) 
             return;
@@ -41,19 +39,20 @@ public class MainHero : MonoBehaviour
             transform.localScale = new Vector3(moveInput, 1, 1);
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
-        
         moveInput = Input.GetAxisRaw("Horizontal");
-        
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            rb.AddForce(new Vector2(rb.linearVelocity.x, jumpForce),ForceMode2D.Impulse);
-            isGrounded = false;
-            
-        }
         
         UpdateState();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rb.AddForce(new Vector2(rb.linearVelocity.x, jumpForce),ForceMode2D.Impulse);
+            isGrounded = false;
+            G.Audio.Play(G.Audio.Sounds.Jump,0.1f);
+        }
+    }
 
     void UpdateState()
     {

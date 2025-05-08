@@ -1706,6 +1706,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 950025021}
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 4954342905338284927}
+    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: _nextLevelView._image
       value: 
       objectReference: {fileID: 5151817378574169856}
@@ -1851,6 +1855,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
+--- !u!82 &4954342905338284927 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4546042289368036724, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
+  m_PrefabInstance: {fileID: 4954342905338284926}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5151817378574169856 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8811195357648091731, guid: 4fc15520f6aaa5c408f214d2d2837d5b, type: 3}
