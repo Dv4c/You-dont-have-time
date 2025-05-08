@@ -31,9 +31,9 @@ public class StartContentView : MonoBehaviour
         _transform.DOShakePosition(0.2f, 15, 50);
     }
 
-    public YieldInstruction HideBackground()
-    {
-        return _image.DOFade(0, 0.5f).WaitForCompletion();
+    public void HideBackground()
+    { 
+        _image.DOFade(0, 0.5f);
     }
     
     public YieldInstruction HideText()
