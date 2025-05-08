@@ -22,7 +22,10 @@ public class Level
     {
         _indexCurrentScene = SceneManager.GetActiveScene().buildIndex;
         _maxScenes = _level.MaxScenes;
-        
+    }
+
+    public void Load()
+    {
         if (WasReloaded)
         {
             Debug.Log("Сцена была перезагружена!");

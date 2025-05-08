@@ -31,42 +31,47 @@ public class Main : MonoBehaviour
     private NextLevelController _levelController;
     private AudioSystem audioSystem;
     private StartContent _startContent;
-    
-    private IEnumerator Start()
+
+    private void Start()
     {
+        Debug.Log(Level.WasReloaded + " fsf");
         _player.Disable();
         _time.TimeElapsed += OnTimerElapsed;
         audioSystem = new(audioSource, sounds);
         G.Audio = audioSystem;
-
-        if (Level.WasReloaded == false && _startContentView != null)
-        {
-            _startContent = new StartContent(_startContentView);
-            yield return StartCoroutine(_startContent.Start());
-        }
-
-        _player.Enable();
-        _musicPlayer.Init();
-
-        _starterTime = new StarterTime();
-        _starterTime.Init(this, _player).Started += InitTime;
         
-        _level?.Init();
+        _level?.Init();       
+        _startContent = new StartContent(this, _startContentView);
+        _starterTime = new StarterTime(this, _player);
+        _starterTime.Started += InitTime;
         
         _levelController = new NextLevelController(this, _level, _exit, _pit, _player, _nextLevelView);
         _levelController.Init();
 
         _exit?.Init(_level, _time, _key);
         _pit?.Init(_level);
+
+        if (Level.WasReloaded == false && _startContentView != null)
+        {
+            _startContent.Started += StartContent;
+            _startContent.Init();
+        }
+        else
+        {
+            Debug.Log(Level.WasReloaded);
+            Debug.Log("else");
+            StartContent();
+        }
     }
     
-    private void OnDisable()
+    private void StartContent()
     {
-        _time.TimeElapsed -= OnTimerElapsed;
-        _starterTime.Started -= InitTime;
-        _levelController.Dispose();
+        _musicPlayer.Init();
+        _starterTime.Init();
+        _player.Enable();
+        _level?.Load();
     }
-
+    
     private void InitTime()
     {
         _timer?.Init();
@@ -81,6 +86,13 @@ public class Main : MonoBehaviour
             RestartGame();
         }
     #endif
+    }
+    
+    private void OnDisable()
+    {
+        _time.TimeElapsed -= OnTimerElapsed;
+        _starterTime.Started -= InitTime;
+        _levelController.Dispose();
     }
 
     private void OnTimerElapsed(TIME time)
@@ -106,7 +118,5 @@ public class Main : MonoBehaviour
 
 public static class G
 {
-    
     public static AudioSystem Audio;
-    
 }

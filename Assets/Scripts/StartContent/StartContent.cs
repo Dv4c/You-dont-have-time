@@ -6,13 +6,22 @@ using UnityEngine;
 public class StartContent
 {
     private StartContentView _view;
+    private MonoBehaviour _behaviour;
+
+    public event Action Started;
     
-    public StartContent(StartContentView startContentView)
+    public StartContent(MonoBehaviour monoBehaviour, StartContentView startContentView)
     {
+        _behaviour = monoBehaviour;
         _view = startContentView;
     }
+
+    public void Init()
+    {
+        _behaviour.StartCoroutine(Start());
+    }
     
-    public IEnumerator Start()
+    private IEnumerator Start()
     {
         _view.Enable();
         yield return new WaitForSeconds(0.5f);
@@ -27,5 +36,6 @@ public class StartContent
         //_view.StopWrite();
         
         _view.Image.DOFade(0, 0.5f).SetEase(Ease.Linear);
+        Started?.Invoke();
     }
 }

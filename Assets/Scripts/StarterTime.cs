@@ -5,14 +5,19 @@ using UnityEngine;
 public class StarterTime
 {
     private MainHero _player;
+    private MonoBehaviour _monoBehaviour;
     
     public event Action Started; 
     
-    public StarterTime Init(MonoBehaviour monoBehaviour, MainHero player)
+    public StarterTime(MonoBehaviour monoBehaviour, MainHero player)
     {
+        _monoBehaviour = monoBehaviour;
         _player = player;
-        monoBehaviour.StartCoroutine(Start());
-        return this;
+    }
+
+    public void Init()
+    {
+        _monoBehaviour.StartCoroutine(Start());
     }
 
     private IEnumerator Start()

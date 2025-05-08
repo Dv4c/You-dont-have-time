@@ -35,7 +35,7 @@ public class StartContentView : MonoBehaviour
     
     public YieldInstruction HideText()
     {
-        return _text.DOFade(0, 1f).WaitForCompletion();
+        return _text.DOFade(0, 0.3f).WaitForCompletion();
     }
 
     public void TextSound()
