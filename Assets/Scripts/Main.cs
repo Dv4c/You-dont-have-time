@@ -34,7 +34,6 @@ public class Main : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(Level.WasReloaded + " fsf");
         _player.Disable();
         _time.TimeElapsed += OnTimerElapsed;
         audioSystem = new(audioSource, sounds);
@@ -58,8 +57,6 @@ public class Main : MonoBehaviour
         }
         else
         {
-            Debug.Log(Level.WasReloaded);
-            Debug.Log("else");
             StartContent();
         }
     }
