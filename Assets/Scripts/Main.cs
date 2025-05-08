@@ -20,16 +20,15 @@ public class Main : MonoBehaviour
     [SerializeField] private Key _key;
     [SerializeField] private Timer _timer;
     [SerializeField] private Pit _pit;
-    [SerializeField] private AudioClip _music;
     [Header("Views")]
     [SerializeField] private NextLevelView _nextLevelView;
 
     private StarterTime _starterTime;
     private NextLevelController _levelController;
     private AudioSystem audioSystem;
+    
     private void Start()
     {
-        
         audioSystem = new(audioSource, sounds);
         G.Audio = audioSystem;
         _time.TimeElapsed += OnTimerElapsed;
