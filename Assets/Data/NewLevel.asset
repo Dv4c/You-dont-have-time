@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb34fc8c494e48fdbf04ec89f80d6df7, type: 3}
   m_Name: NewLevel
   m_EditorClassIdentifier: 
+  <LevelCompletedSprite>k__BackingField: {fileID: 6224643770640504220, guid: c1cdeec489bbd88469b5b62dd12dcfa5, type: 3}
+  <LevelFailedSprite>k__BackingField: {fileID: -7504738089163039124, guid: 13f796f2b684b804ca7e7981c4eb0249, type: 3}
   Duration: 0.75
   WaitNext: 0.5

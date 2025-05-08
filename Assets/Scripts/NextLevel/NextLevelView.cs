@@ -17,11 +17,16 @@ public class NextLevelView
     private float _waitNext;
 
     private Transform Image => _image.transform;
+    
+    public Sprite LevelCompletedSprite { get; private set; }
+    public Sprite LevelFailedSprite { get; private set; }
 
     public void Init()
     {
         _duration = _nextLevelData.Duration;
         _waitNext = _nextLevelData.WaitNext;
+        LevelCompletedSprite = _nextLevelData.LevelCompletedSprite;
+        LevelFailedSprite = _nextLevelData.LevelFailedSprite;
     }
     
     public IEnumerator LerpToNext()
@@ -46,5 +51,10 @@ public class NextLevelView
     public void Enable()
     {
         _image.enabled = true;
+    }
+
+    public void SetSprite(Sprite sprite)
+    {
+        _image.sprite = sprite;
     }
 }

@@ -58,6 +58,11 @@ public class NextLevelController
             yield break;
         }
             
+        if (_level.IsLevelCompleted)
+            _nextLevelView.SetSprite(_nextLevelView.LevelCompletedSprite);
+        else
+            _nextLevelView.SetSprite(_nextLevelView.LevelFailedSprite);
+        
         //_nextLevelView.Enable();
         _player.Disable();
         yield return _nextLevelView.LerpFromNext();
@@ -76,6 +81,6 @@ public class NextLevelController
         }
 
         yield return _nextLevelView.LerpToNext();
-        _level.NextLevel();
+        _level.NextLevel(true);
     }
 }

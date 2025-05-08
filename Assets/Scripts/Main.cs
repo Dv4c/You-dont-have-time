@@ -72,6 +72,7 @@ public class Main : MonoBehaviour
 
     private void RestartGame()
     {
+        _level.LevelFaile();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

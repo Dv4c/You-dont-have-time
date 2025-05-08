@@ -10,8 +10,8 @@ public class StarterTime
     
     public StarterTime Init(MonoBehaviour monoBehaviour, MainHero player)
     {
-        monoBehaviour.StartCoroutine(Start());
         _player = player;
+        monoBehaviour.StartCoroutine(Start());
         return this;
     }
 

@@ -138,6 +138,10 @@ public class MainHero : MonoBehaviour
     
     public bool IsPlayerMoved()
     {
-        return rb.linearVelocity != Vector2.zero;
+        if (IsActive == false)
+            return false;
+        
+        return Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0 ||
+               Input.GetAxis("Vertical") > 0 || Input.GetAxis("Vertical") < 0 || Input.GetKeyDown(KeyCode.Space);
     }
 }
