@@ -5,7 +5,7 @@ public class MusicPlayer : MonoBehaviour
 {
     [SerializeField] private MusicObject _prefab;
     
-    private void Start()
+    public void Init()
     {
         MusicObject musicObject = FindObjectOfType<MusicObject>();
 

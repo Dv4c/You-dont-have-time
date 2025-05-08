@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -20,18 +22,31 @@ public class Main : MonoBehaviour
     [SerializeField] private Key _key;
     [SerializeField] private Timer _timer;
     [SerializeField] private Pit _pit;
+    [SerializeField] private MusicPlayer _musicPlayer;
     [Header("Views")]
     [SerializeField] private NextLevelView _nextLevelView;
+    [SerializeField] private StartContentView _startContentView;
 
     private StarterTime _starterTime;
     private NextLevelController _levelController;
     private AudioSystem audioSystem;
+    private StartContent _startContent;
     
-    private void Start()
+    private IEnumerator Start()
     {
+        _player.Disable();
+        _time.TimeElapsed += OnTimerElapsed;
         audioSystem = new(audioSource, sounds);
         G.Audio = audioSystem;
-        _time.TimeElapsed += OnTimerElapsed;
+
+        if (Level.WasReloaded == false && _level.IsFirstLevel)
+        {
+            _startContent = new StartContent(_startContentView);
+            yield return StartCoroutine(_startContent.OnEncounterReady());
+        }
+        _player.Enable();
+        _musicPlayer.Init();
+
         _starterTime = new StarterTime();
         _starterTime.Init(this, _player).Started += InitTime;
         
@@ -42,7 +57,6 @@ public class Main : MonoBehaviour
 
         _exit?.Init(_level, _time, _key);
         _pit?.Init(_level);
-        player.transform.position = spawnPos.transform.position;
     }
     
     private void OnDisable()
@@ -54,6 +68,7 @@ public class Main : MonoBehaviour
 
     private void InitTime()
     {
+        Debug.Log("dwef");
         _timer?.Init();
         _time?.Init(_timer);
     }
@@ -80,6 +95,12 @@ public class Main : MonoBehaviour
     {
         _level.LevelFaile();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    
+    [ContextMenu("ClearStatic")]
+    private void ClearStatic()
+    {
+        _level.Reset();
     }
 }
 
