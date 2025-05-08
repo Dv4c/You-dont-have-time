@@ -1128,7 +1128,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4085417527926547579, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
   m_PrefabInstance: {fileID: 4498064238743124462}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 4498064238743124463}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 321752a7f68590a4bbf5f2b987c52631, type: 3}
@@ -1985,7 +1985,7 @@ PrefabInstance:
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: _startContentView
       value: 
-      objectReference: {fileID: 4498064238743124463}
+      objectReference: {fileID: 4498064238743124464}
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: _nextLevelView._image
       value: 
@@ -2045,19 +2045,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3388815309176289114, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4498064238743124464}
   m_SourcePrefab: {fileID: 100100000, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
---- !u!114 &4498064238743124463 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2398704091113504014, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+--- !u!1 &4498064238743124463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3388815309176289114, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
   m_PrefabInstance: {fileID: 4498064238743124462}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &4498064238743124464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4498064238743124463}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f94030db7558794ea37a160248b1f02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvas: {fileID: 1486380150}
+  _canvasGroup: {fileID: 0}
+  _textAnimator: {fileID: 6833477622983942954}
+  _player: {fileID: 5613250858956355560}
+  _transform: {fileID: 8915042927984525990}
+  _text: {fileID: 1133076241852961787}
+  _image: {fileID: 578838267}
 --- !u!1001 &4954342905338284926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2151,7 +2167,7 @@ MonoBehaviour:
   onCharacterVisible:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4498064238743124463}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StartContentView, Assembly-CSharp
         m_MethodName: TextSound
         m_Mode: 1

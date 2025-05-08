@@ -39,11 +39,12 @@ public class Main : MonoBehaviour
         audioSystem = new(audioSource, sounds);
         G.Audio = audioSystem;
 
-        if (Level.WasReloaded == false && _level.IsFirstLevel)
+        if (Level.WasReloaded == false && _startContentView != null)
         {
             _startContent = new StartContent(_startContentView);
             yield return _startContent.OnEncounterReady();
         }
+
         _player.Enable();
         _musicPlayer.Init();
 

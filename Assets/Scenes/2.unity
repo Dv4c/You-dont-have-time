@@ -1714,6 +1714,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4954342905338284927}
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      propertyPath: _musicPlayer
+      value: 
+      objectReference: {fileID: 4498064238743124463}
+    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      propertyPath: _startContentView
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: _nextLevelView._image
       value: 
       objectReference: {fileID: 5151817378574169856}
@@ -1782,6 +1790,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+--- !u!114 &4498064238743124463 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4085417527926547579, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+  m_PrefabInstance: {fileID: 4498064238743124462}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321752a7f68590a4bbf5f2b987c52631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4954342905338284926
 PrefabInstance:
   m_ObjectHideFlags: 0
