@@ -42,7 +42,7 @@ public class Main : MonoBehaviour
         if (Level.WasReloaded == false && _startContentView != null)
         {
             _startContent = new StartContent(_startContentView);
-            yield return _startContent.OnEncounterReady();
+            yield return StartCoroutine(_startContent.Start());
         }
 
         _player.Enable();

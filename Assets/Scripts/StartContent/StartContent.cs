@@ -12,30 +12,20 @@ public class StartContent
         _view = startContentView;
     }
     
-    public IEnumerator OnEncounterReady()
+    public IEnumerator Start()
     {
         _view.Enable();
         yield return new WaitForSeconds(0.5f);
         _view.StartWrite();
         _view.Shake();
         
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         G.Audio.Play(G.Audio.Sounds.Click);
         _view.Shake();
         
         yield return _view.HideText();
-        _view.StopWrite();
+        //_view.StopWrite();
         
-        yield return null;
-        yield return null;
-        yield return null;
-        yield return null;
-        yield return null;
-        yield return null;
-        yield return null;
-        yield return null;
-        yield return null;
         _view.Image.DOFade(0, 0.5f).SetEase(Ease.Linear);
-        Debug.Log("EndOnEncounterReady");
     }
 }
