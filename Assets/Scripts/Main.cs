@@ -22,10 +22,12 @@ public class Main : MonoBehaviour
     [SerializeField] private Pit _pit;
     [Header("Views")]
     [SerializeField] private NextLevelView _nextLevelView;
+    [SerializeField] private StartContentView _startContentView;
 
     private StarterTime _starterTime;
     private NextLevelController _levelController;
     private AudioSystem audioSystem;
+    private StartContentController _startContentController;
     
     private void Start()
     {
@@ -42,7 +44,9 @@ public class Main : MonoBehaviour
 
         _exit?.Init(_level, _time, _key);
         _pit?.Init(_level);
-        player.transform.position = spawnPos.transform.position;
+        
+        _startContentController = new StartContentController(_startContentView);
+        _startContentController.Init(this);
     }
     
     private void OnDisable()
