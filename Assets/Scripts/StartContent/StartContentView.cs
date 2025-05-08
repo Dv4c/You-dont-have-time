@@ -15,6 +15,8 @@ public class StartContentView : MonoBehaviour
     [SerializeField] private TMP_Text _text;
     [SerializeField] private Image _image;
     
+    public Image Image => _image;
+    
     public void StartWrite()
     {
         _player.ShowText("GAME BY DVAC");
@@ -29,11 +31,6 @@ public class StartContentView : MonoBehaviour
     public void Shake()
     {
         _transform.DOShakePosition(0.2f, 15, 50);
-    }
-
-    public void HideBackground()
-    {
-        _image.enabled = false;
     }
     
     public YieldInstruction HideText()

@@ -69,7 +69,6 @@ public class Main : MonoBehaviour
 
     private void InitTime()
     {
-        Debug.Log("dwef");
         _timer?.Init();
         _time?.Init(_timer);
     }

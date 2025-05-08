@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using DG.Tweening;
 using UnityEngine;
 
 public class StartContent
@@ -25,8 +26,16 @@ public class StartContent
         yield return _view.HideText();
         _view.StopWrite();
         
-        yield return new WaitForSeconds(0.5f);
-        _view.HideBackground();
+        yield return null;
+        yield return null;
+        yield return null;
+        yield return null;
+        yield return null;
+        yield return null;
+        yield return null;
+        yield return null;
+        yield return null;
+        _view.Image.DOFade(0, 0.5f).SetEase(Ease.Linear);
         Debug.Log("EndOnEncounterReady");
     }
 }
