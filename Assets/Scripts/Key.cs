@@ -11,6 +11,7 @@ public class Key : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent(out MainHero mainHero))
         {
+            G.Audio.Play(G.Audio.Sounds.PickUpKey,0.05f);
             transform.DOScale(Vector3.zero, 0.1f);
             Debug.Log(mainHero);
             IsTaken = true;

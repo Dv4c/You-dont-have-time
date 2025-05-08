@@ -50,7 +50,7 @@ public class MainHero : MonoBehaviour
         {
             rb.AddForce(new Vector2(rb.linearVelocity.x, jumpForce),ForceMode2D.Impulse);
             isGrounded = false;
-            G.Audio.Play(G.Audio.Sounds.Jump,0.1f);
+            G.Audio.Play(G.Audio.Sounds.Jump,0.05f);
         }
     }
 

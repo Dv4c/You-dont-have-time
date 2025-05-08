@@ -20,7 +20,7 @@ public class Main : MonoBehaviour
     [SerializeField] private Key _key;
     [SerializeField] private Timer _timer;
     [SerializeField] private Pit _pit;
-    
+    [SerializeField] private AudioClip _music;
     [Header("Views")]
     [SerializeField] private NextLevelView _nextLevelView;
 
@@ -29,6 +29,7 @@ public class Main : MonoBehaviour
     private AudioSystem audioSystem;
     private void Start()
     {
+        
         audioSystem = new(audioSource, sounds);
         G.Audio = audioSystem;
         _time.TimeElapsed += OnTimerElapsed;
@@ -44,7 +45,7 @@ public class Main : MonoBehaviour
         _pit?.Init(_level);
         player.transform.position = spawnPos.transform.position;
     }
-
+    
     private void OnDisable()
     {
         _time.TimeElapsed -= OnTimerElapsed;
