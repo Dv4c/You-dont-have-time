@@ -32,8 +32,8 @@ public class StartContentView : MonoBehaviour
     }
 
     public void HideBackground()
-    { 
-        _image.DOFade(0, 0.5f);
+    {
+        _image.enabled = false;
     }
     
     public YieldInstruction HideText()
