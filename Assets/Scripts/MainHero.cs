@@ -46,7 +46,7 @@ public class MainHero : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && isGrounded)
         {
             rb.AddForce(new Vector2(rb.linearVelocity.x, jumpForce),ForceMode2D.Impulse);
             isGrounded = false;
