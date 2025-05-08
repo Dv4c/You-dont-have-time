@@ -42,7 +42,7 @@ public class Main : MonoBehaviour
         if (Level.WasReloaded == false && _level.IsFirstLevel)
         {
             _startContent = new StartContent(_startContentView);
-            yield return StartCoroutine(_startContent.OnEncounterReady());
+            yield return _startContent.OnEncounterReady();
         }
         _player.Enable();
         _musicPlayer.Init();
