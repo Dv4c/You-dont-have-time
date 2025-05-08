@@ -26,6 +26,7 @@ public class StartContent
         _view.StopWrite();
         
         yield return new WaitForSeconds(0.5f);
-        yield return _view.HideBackground();
+        _view.HideBackground();
+        Debug.Log("EndOnEncounterReady");
     }
 }
