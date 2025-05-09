@@ -134,7 +134,6 @@ public class StartContent
             yield return _introController.StartIntro();
             Debug.Log("_player.Enable()");
             _player.Enable();
-            _starterTime.Init();
         }
 
         _starterTime.Init();
