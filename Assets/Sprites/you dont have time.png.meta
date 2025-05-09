@@ -1279,9 +1279,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 304
-        y: 38
+        y: 24
         width: 29
-        height: 18
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1292,28 +1292,6 @@ TextureImporter:
       bones: []
       spriteID: 6b2c8031b018c5d41abbd88ec8fbbf45
       internalID: 1930315996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: you dont have time_274
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 24
-        width: 28
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d01e37c50f6ca294f8d13ff2a9764534
-      internalID: -168695272
       vertices: []
       indices: 
       edges: []
@@ -1657,7 +1635,7 @@ TextureImporter:
         width: 28
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1679,7 +1657,7 @@ TextureImporter:
         width: 34
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1701,7 +1679,7 @@ TextureImporter:
         width: 34
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1710,6 +1688,94 @@ TextureImporter:
       bones: []
       spriteID: 43e9588c05c16094fb434183fd9b7df5
       internalID: 655664979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_24
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 59
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f12086a486a294caf32c9b329b2359
+      internalID: -111605831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_25
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 59
+        width: 1
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070a1a3a6b555674895af4091ff99c6d
+      internalID: 592652509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_26
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 84
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154218866c289be41b9e2e3402e14d2f
+      internalID: -670406718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: you dont have time_27
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 24
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feda183f7e87294a97cb3ea3a35e684
+      internalID: -287589409
       vertices: []
       indices: 
       edges: []
