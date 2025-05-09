@@ -1436,7 +1436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2971745274921694828, guid: ec1554b9827ed7444ab2815ce5d580c4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4263
+      value: -0.375
       objectReference: {fileID: 0}
     - target: {fileID: 2971745274921694828, guid: ec1554b9827ed7444ab2815ce5d580c4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1554,7 +1554,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6653002847958832034, guid: 72b1ce45ed4433c4c9697f1b2e719ecc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.04
+      value: -0.0346
       objectReference: {fileID: 0}
     - target: {fileID: 6653002847958832034, guid: 72b1ce45ed4433c4c9697f1b2e719ecc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1808,15 +1808,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.04960541
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.99999994
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.89987314
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7250404773478750507, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_Name
@@ -2171,6 +2171,10 @@ PrefabInstance:
     - target: {fileID: 7864433563215944377, guid: 0a943fbc50ae22a4a9294c5c47bccc66, type: 3}
       propertyPath: m_Name
       value: TIME
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936274656171451321, guid: 0a943fbc50ae22a4a9294c5c47bccc66, type: 3}
+      propertyPath: m_SortingOrder
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 9173058950275808577, guid: 0a943fbc50ae22a4a9294c5c47bccc66, type: 3}
       propertyPath: time
