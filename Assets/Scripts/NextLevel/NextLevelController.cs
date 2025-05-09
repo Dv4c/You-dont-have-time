@@ -52,16 +52,21 @@ public class NextLevelController
 
     private IEnumerator StartRoutine()
     {
-        if (_level.IsFirstLevel)
+        if (_level.IsFirstLevel && Level.WasRelaoded == false)
         {
-            Debug.Log("_level.IsLastLevel || _level.IsFirstLevel");
+            Debug.Log("Moew");
             yield break;
         }
-            
+        
         if (_level.IsLevelCompleted)
             _nextLevelView.SetSprite(_nextLevelView.LevelCompletedSprite);
         else
             _nextLevelView.SetSprite(_nextLevelView.LevelFailedSprite);
+        
+        if (_level.IsFirstLevel && Level.WasRelaoded)
+        {
+            _nextLevelView.SetSprite(_nextLevelView.LevelFailedSprite);
+        }
         
         //_nextLevelView.Enable();
         _player.Disable();

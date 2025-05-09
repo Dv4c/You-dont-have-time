@@ -591,6 +591,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4c50ed7efba9a746aed4de5f18a2b7d, type: 3}
+--- !u!1 &800929439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3388815309176289114, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+  m_PrefabInstance: {fileID: 4498064238743124462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &800929443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800929439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da04e6bffe443e1bd105675ae28bc7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 1972805114}
+  _textAnimator: {fileID: 6833477622577645980}
+  _player: {fileID: 5613250858564476254}
+  _transform: {fileID: 8915042927571101712}
+  _text: {fileID: 1133076241730976077}
+  _image: {fileID: 917223757}
 --- !u!1 &871027443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1944,6 +1967,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 506062012}
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      propertyPath: _startContentView
+      value: 
+      objectReference: {fileID: 800929443}
+    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: _nextLevelView._image
       value: 
       objectReference: {fileID: 976539074}
@@ -2026,7 +2053,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3388815309176289114, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 800929443}
   m_SourcePrefab: {fileID: 100100000, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
 --- !u!1001 &4954342905338284926
 PrefabInstance:
@@ -2121,9 +2151,9 @@ MonoBehaviour:
   onCharacterVisible:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 800929443}
         m_TargetAssemblyTypeName: StartContentView, Assembly-CSharp
-        m_MethodName: TextSound
+        m_MethodName: WriteSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

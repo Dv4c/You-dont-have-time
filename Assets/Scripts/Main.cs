@@ -1,6 +1,8 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class Main : MonoBehaviour
 {
@@ -22,20 +24,19 @@ public class Main : MonoBehaviour
     [SerializeField] private Pit _pit;
     [Header("Views")]
     [SerializeField] private NextLevelView _nextLevelView;
-    [SerializeField] private StartContentView _startContentView;
+    [FormerlySerializedAs("_startContentView")] [SerializeField] private IntroView introView;
 
     private StarterTime _starterTime;
     private NextLevelController _levelController;
     private AudioSystem audioSystem;
-    private StartContentController _startContentController;
     
     private void Start()
     {
+        _time.TimeElapsed += OnTimerElapsed;
+        _player.Disable();
+        
         audioSystem = new(audioSource, sounds);
         G.Audio = audioSystem;
-        _time.TimeElapsed += OnTimerElapsed;
-        _starterTime = new StarterTime();
-        _starterTime.Init(this, _player).Started += InitTime;
         
         _level?.Init();
         
@@ -45,8 +46,12 @@ public class Main : MonoBehaviour
         _exit?.Init(_level, _time, _key);
         _pit?.Init(_level);
         
-        _startContentController = new StartContentController(_startContentView);
-        _startContentController.Init(this);
+        _starterTime = new StarterTime(this, _player);
+        _starterTime.Started += InitTime;
+        
+        IntroController introController = new(introView);
+        StartContent startContent = new StartContent(this, introController, _player, _starterTime, _level);
+        startContent.Init();
     }
     
     private void OnDisable()
@@ -85,6 +90,12 @@ public class Main : MonoBehaviour
         _level.LevelFaile();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    [ContextMenu("ResetStatic")]
+    private void ResetStatic()
+    {
+        _level.Reset();
+    }
 }
 
 public static class G
@@ -92,4 +103,41 @@ public static class G
     
     public static AudioSystem Audio;
     
+}
+
+public class StartContent
+{
+    private MonoBehaviour _behaviour;
+    private IntroController _introController;
+    private MainHero _player;
+    private StarterTime _starterTime;
+    private Level _level;
+
+    public StartContent(MonoBehaviour monoBehaviour, IntroController introController, MainHero player, StarterTime starterTime, Level level)
+    {
+        _behaviour = monoBehaviour;
+        _introController = introController;
+        _player = player;
+        _starterTime = starterTime;
+        _level = level;
+    }
+
+    public void Init()
+    {
+        _behaviour.StartCoroutine(Start());
+    }
+
+    private IEnumerator Start()
+    {
+        if (Level.WasRelaoded == false)
+        {
+            yield return _introController.StartIntro();
+            Debug.Log("_player.Enable()");
+            _player.Enable();
+            _starterTime.Init();
+        }
+
+        _starterTime.Init();
+        _level.Load();
+    }
 }

@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class StarterTime
 {
+    private MonoBehaviour _mono;
     private MainHero _player;
     
     public event Action Started; 
     
-    public StarterTime Init(MonoBehaviour monoBehaviour, MainHero player)
+    public StarterTime(MonoBehaviour monoBehaviour, MainHero player)
     {
+        _mono = monoBehaviour;
         _player = player;
-        monoBehaviour.StartCoroutine(Start());
-        return this;
+    }
+
+    public void Init()
+    {
+        _mono.StartCoroutine(Start());
     }
 
     private IEnumerator Start()

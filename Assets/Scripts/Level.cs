@@ -16,11 +16,24 @@ public class Level
     public bool IsLastLevel => _indexCurrentScene == _maxScenes;
     public bool IsFirstLevel => _indexCurrentScene == 0;
     public bool IsLevelCompleted => PlayerPrefs.GetInt(LevelCompleted) == 1;
+    public static bool WasRelaoded { get; private set; }= false;
 
     public void Init()
     {
         _indexCurrentScene = SceneManager.GetActiveScene().buildIndex;
         _maxScenes = _level.MaxScenes;
+    }
+
+    public void Load()
+    {
+        if (WasRelaoded == false)
+        {
+            WasRelaoded = true;
+        }
+        else
+        {
+            Debug.Log("Уровень был перезагружен!");
+        }
     }
 
     public void NextLevel(bool isComplete)
@@ -42,5 +55,10 @@ public class Level
     {
         PlayerPrefs.SetInt(LevelCompleted, 0);
         PlayerPrefs.Save();
+    }
+
+    public void Reset()
+    {
+        WasRelaoded = false;
     }
 }

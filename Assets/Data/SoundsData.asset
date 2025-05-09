@@ -17,3 +17,5 @@ MonoBehaviour:
   Shake: {fileID: 8300000, guid: 587ee8c8fcf93454eb61ee3f0760cfc8, type: 3}
   PickUpKey: {fileID: 8300000, guid: 70ae9ec46d9eb3e41813dbbfe5dc6aab, type: 3}
   PickUpTime: {fileID: 8300000, guid: cb10edb6c9a9ee1478267986a31f1312, type: 3}
+  Write: {fileID: 8300000, guid: 79116cd01799b5b4dab508c15af08a54, type: 3}
+  Click: {fileID: 8300000, guid: cfb6d35f12eacd445bd8bb2f5a130c80, type: 3}

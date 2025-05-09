@@ -5,8 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-[Serializable]
-public class StartContentView
+public class IntroView : MonoBehaviour
 {
     [SerializeField] private GameObject _canvas;
     [SerializeField] private TextAnimator _textAnimator;
@@ -29,5 +28,20 @@ public class StartContentView
     public void Shake()
     {
         _transform.DOShakePosition(0.2f, 15, 50);
+    }
+
+    public YieldInstruction HideText()
+    {
+        return _text.DOFade(0, 0.5f).WaitForCompletion();
+    }
+
+    public YieldInstruction HideBackground()
+    {
+        return _image.DOFade(0, 0.5f).WaitForCompletion();
+    }
+
+    public void WriteSound()
+    {
+        G.Audio.Play(G.Audio.Sounds.Write);
     }
 }
