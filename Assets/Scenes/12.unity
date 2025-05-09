@@ -1068,6 +1068,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4958999703678210818, guid: e8745a9b975f31440869410085383686, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6657447890583708599, guid: e8745a9b975f31440869410085383686, type: 3}
       propertyPath: m_Name
       value: PIT (2)
@@ -2434,15 +2438,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0
+      value: 0.04960541
       objectReference: {fileID: 0}
     - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 1
+      value: 0.99999994
       objectReference: {fileID: 0}
     - target: {fileID: 3230272159153654233, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 1
+      value: 0.89987314
       objectReference: {fileID: 0}
     - target: {fileID: 7250404773478750507, guid: 0088b65f2bea23b4190c7895e2153bfd, type: 3}
       propertyPath: m_Name
