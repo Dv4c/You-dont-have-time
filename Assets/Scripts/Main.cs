@@ -48,13 +48,15 @@ public class Main : MonoBehaviour
         _exit?.Init(_level, _time, _key);
         _pit?.Init(_level);
         
+        _musicPlayer.Init();
+        
         _starterTime = new StarterTime(this, _player);
         _starterTime.Started += InitTime;
 
         if (introView != null)
             _introController = new(introView);
         
-        StartContent startContent = new StartContent(this, _introController, _player, _starterTime, _level, _musicPlayer);
+        StartContent startContent = new StartContent(this, _introController, _player, _starterTime, _level);
         startContent.Init();
     }
     
@@ -116,10 +118,9 @@ public class StartContent
     private MainHero _player;
     private StarterTime _starterTime;
     private Level _level;
-    private MusicPlayer _musicPlayer;
 
     public StartContent(MonoBehaviour monoBehaviour, IntroController introController, MainHero player,
-        StarterTime starterTime, Level level, MusicPlayer musicPlayer)
+        StarterTime starterTime, Level level)
     {
         _behaviour = monoBehaviour;
         
@@ -129,7 +130,6 @@ public class StartContent
         _player = player;
         _starterTime = starterTime;
         _level = level;
-        _musicPlayer = musicPlayer;
     }
 
     public void Init()
@@ -144,13 +144,11 @@ public class StartContent
             if (Level.WasRelaoded == false)
             {
                 yield return _introController.StartIntro();
-                _musicPlayer.Init();
                 _player.Enable();
             }
         }
 
         _starterTime.Init();
-        _musicPlayer.Init();
         _level.Load();
     }
 }

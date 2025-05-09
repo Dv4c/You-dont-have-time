@@ -7,9 +7,9 @@ public class MusicPlayer : MonoBehaviour
     
     public void Init()
     {
-        MusicObject musicObject = FindObjectOfType<MusicObject>();
+        MusicObject[] musicObject = FindObjectsByType<MusicObject>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
 
-        if (musicObject == null)
+        if (musicObject.Length <= 0)
         {
             MusicObject music = Instantiate(_prefab);
             music.Play();
