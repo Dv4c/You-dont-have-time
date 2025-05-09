@@ -46,7 +46,7 @@ public class Main : MonoBehaviour
         _levelController.Init();
 
         _exit?.Init(_level, _time, _key);
-        _pit?.Init(_level);
+        _pit?.Init(this);
         
         _musicPlayer.Init();
         
@@ -91,7 +91,7 @@ public class Main : MonoBehaviour
         RestartGame();
     }
 
-    private void RestartGame()
+    public void RestartGame()
     {
         _level.LevelFaile();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

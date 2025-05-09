@@ -21,6 +21,8 @@ public class MainHero : MonoBehaviour
     private float moveInput; 
     private bool isGrounded; 
     private PlayerState currentState;
+    private float _cooldownTime = 0.2f;
+    private float _lastTime;
     
     public bool IsActive { get; private set; } = true;
 
@@ -46,8 +48,9 @@ public class MainHero : MonoBehaviour
 
     private void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && isGrounded)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && isGrounded && Time.time - _lastTime >= _cooldownTime)
         {
+            _lastTime = Time.time;
             rb.AddForce(new Vector2(rb.linearVelocity.x, jumpForce),ForceMode2D.Impulse);
             isGrounded = false;
             G.Audio.Play(G.Audio.Sounds.Jump,0.05f);

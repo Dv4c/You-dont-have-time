@@ -216,11 +216,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1952390645784326608, guid: e8745a9b975f31440869410085383686, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.123
+      value: 1.1142
       objectReference: {fileID: 0}
     - target: {fileID: 1952390645784326608, guid: e8745a9b975f31440869410085383686, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.486
+      value: -0.4755
       objectReference: {fileID: 0}
     - target: {fileID: 1952390645784326608, guid: e8745a9b975f31440869410085383686, type: 3}
       propertyPath: m_LocalPosition.z
@@ -258,6 +258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PIT
       objectReference: {fileID: 0}
+    - target: {fileID: 6951316614307143535, guid: e8745a9b975f31440869410085383686, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.016
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -290,17 +294,25 @@ PrefabInstance:
       propertyPath: time
       value: 2.4
       objectReference: {fileID: 0}
+    - target: {fileID: 6102626260177042694, guid: b1c587c6e27657e4a91126c6f2fa2309, type: 3}
+      propertyPath: m_GravityScale
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6102626260177042694, guid: b1c587c6e27657e4a91126c6f2fa2309, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6818130528550375866, guid: b1c587c6e27657e4a91126c6f2fa2309, type: 3}
       propertyPath: m_Name
       value: Timer
       objectReference: {fileID: 0}
     - target: {fileID: 9024764676399886708, guid: b1c587c6e27657e4a91126c6f2fa2309, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.034
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 9024764676399886708, guid: b1c587c6e27657e4a91126c6f2fa2309, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 3.706
       objectReference: {fileID: 0}
     - target: {fileID: 9024764676399886708, guid: b1c587c6e27657e4a91126c6f2fa2309, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1892,13 +1904,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Key
       objectReference: {fileID: 0}
+    - target: {fileID: 3639427353501412367, guid: 711d2cbfb1e0b8a49a662b43fa5a6c9d, type: 3}
+      propertyPath: m_GravityScale
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639427353501412367, guid: 711d2cbfb1e0b8a49a662b43fa5a6c9d, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5478364166129365761, guid: 711d2cbfb1e0b8a49a662b43fa5a6c9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.683
       objectReference: {fileID: 0}
     - target: {fileID: 5478364166129365761, guid: 711d2cbfb1e0b8a49a662b43fa5a6c9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 3.7110002
       objectReference: {fileID: 0}
     - target: {fileID: 5478364166129365761, guid: 711d2cbfb1e0b8a49a662b43fa5a6c9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1953,6 +1973,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1374539912637835473, guid: 4fc15520f6aaa5c408f214d2d2837d5b, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3827375181013985213, guid: 4fc15520f6aaa5c408f214d2d2837d5b, type: 3}
       propertyPath: m_Camera
       value: 
