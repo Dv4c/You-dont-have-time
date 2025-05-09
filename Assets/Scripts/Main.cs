@@ -24,11 +24,13 @@ public class Main : MonoBehaviour
     [SerializeField] private Pit _pit;
     [Header("Views")]
     [SerializeField] private NextLevelView _nextLevelView;
-    [FormerlySerializedAs("_startContentView")] [SerializeField] private IntroView introView;
+    [SerializeField] private IntroView introView;
+    [SerializeField] private MusicPlayer _musicPlayer;
 
     private StarterTime _starterTime;
     private NextLevelController _levelController;
     private AudioSystem audioSystem;
+    private IntroController _introController;
     
     private void Start()
     {
@@ -48,9 +50,11 @@ public class Main : MonoBehaviour
         
         _starterTime = new StarterTime(this, _player);
         _starterTime.Started += InitTime;
+
+        if (introView != null)
+            _introController = new(introView);
         
-        IntroController introController = new(introView);
-        StartContent startContent = new StartContent(this, introController, _player, _starterTime, _level);
+        StartContent startContent = new StartContent(this, _introController, _player, _starterTime, _level, _musicPlayer);
         startContent.Init();
     }
     
@@ -112,14 +116,20 @@ public class StartContent
     private MainHero _player;
     private StarterTime _starterTime;
     private Level _level;
+    private MusicPlayer _musicPlayer;
 
-    public StartContent(MonoBehaviour monoBehaviour, IntroController introController, MainHero player, StarterTime starterTime, Level level)
+    public StartContent(MonoBehaviour monoBehaviour, IntroController introController, MainHero player,
+        StarterTime starterTime, Level level, MusicPlayer musicPlayer)
     {
         _behaviour = monoBehaviour;
-        _introController = introController;
+        
+        if (introController != null)
+            _introController = introController;
+        
         _player = player;
         _starterTime = starterTime;
         _level = level;
+        _musicPlayer = musicPlayer;
     }
 
     public void Init()
@@ -129,14 +139,18 @@ public class StartContent
 
     private IEnumerator Start()
     {
-        if (Level.WasRelaoded == false)
+        if (_introController != null)
         {
-            yield return _introController.StartIntro();
-            Debug.Log("_player.Enable()");
-            _player.Enable();
+            if (Level.WasRelaoded == false)
+            {
+                yield return _introController.StartIntro();
+                _musicPlayer.Init();
+                _player.Enable();
+            }
         }
 
         _starterTime.Init();
+        _musicPlayer.Init();
         _level.Load();
     }
 }

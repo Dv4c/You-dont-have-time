@@ -614,6 +614,17 @@ MonoBehaviour:
   _transform: {fileID: 8915042927571101712}
   _text: {fileID: 1133076241730976077}
   _image: {fileID: 917223757}
+--- !u!114 &800929444 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4085417527926547579, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+  m_PrefabInstance: {fileID: 4498064238743124462}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800929439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321752a7f68590a4bbf5f2b987c52631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &871027443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,9 +1974,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1793674199}
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      propertyPath: introView
+      value: 
+      objectReference: {fileID: 800929443}
+    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 506062012}
+    - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
+      propertyPath: _musicPlayer
+      value: 
+      objectReference: {fileID: 800929444}
     - target: {fileID: 6405503175074309650, guid: d5c643d8d5a173e45b9ccfb135336549, type: 3}
       propertyPath: _startContentView
       value: 
