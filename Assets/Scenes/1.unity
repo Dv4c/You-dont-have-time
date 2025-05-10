@@ -1985,7 +1985,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME BY DVAC
+  m_text: 'GAME BY DACV
+
+    & ZICHEMERR'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77ae303ee9093a4479a87b68d59b8424, type: 2}
   m_sharedMaterial: {fileID: 6612623001389788885, guid: 77ae303ee9093a4479a87b68d59b8424, type: 2}

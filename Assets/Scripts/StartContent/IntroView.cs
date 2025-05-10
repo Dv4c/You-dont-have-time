@@ -21,7 +21,7 @@ public class IntroView : MonoBehaviour
 
     public void StartWrite()
     {
-        _player.ShowText("GAME BY DVAC");
+        _player.ShowText("GAME BY DVAC \nAND ZICHEMERR");
         _player.StartShowingText();
     }
 

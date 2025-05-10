@@ -34,7 +34,7 @@ public class IntroController
     private IEnumerator HideText()
     {
         yield return new WaitForSeconds(3f);
-        G.Audio.Play(G.Audio.Sounds.Click,0.05f);
+        G.Audio.Play(G.Audio.Sounds.Click,0.1f);
         _view.Shake();
         yield return _view.HideText();
     }
