@@ -19,3 +19,4 @@ MonoBehaviour:
   PickUpTime: {fileID: 8300000, guid: cb10edb6c9a9ee1478267986a31f1312, type: 3}
   Write: {fileID: 8300000, guid: 79116cd01799b5b4dab508c15af08a54, type: 3}
   Click: {fileID: 8300000, guid: cfb6d35f12eacd445bd8bb2f5a130c80, type: 3}
+  Win: {fileID: 8300000, guid: 1d0aec0042e42ae46a9c58622d59894e, type: 3}

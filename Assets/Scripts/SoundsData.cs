@@ -10,4 +10,5 @@ public class SoundsData : ScriptableObject
     public AudioClip PickUpTime;
     public AudioClip Write;
     public AudioClip Click;
+    public AudioClip Win;
 }
